@@ -1,0 +1,161 @@
+Packet,Benchmark,Component,Percentile Rank,# Compatible Public Results,ns/day (Average),Intervals
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,2 x Intel Xeon 6980P,100th,27,93.0,1.0
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AMD EPYC 9965 192-Core,99th,11,81.0,11.0
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,2 x AMD EPYC 9755 128-Core,98th,20,78.0,7.0
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,2 x AMD EPYC 9655 96-Core,97th,5,77.0,1.0
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,2 x AMD EPYC 9575F 64-Core,97th,4,74.0,3.0
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AMD EPYC 9755 128-Core,97th,18,71.0,6.0
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,Intel Xeon 6980P,96th,11,68.0,2.0
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,2 x AMD EPYC 9965 192-Core,96th,3,68.0,0
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,2 x AMD EPYC 9684X 96-Core,94th,4,62.0,0
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,4 x EPYC 9V64H,93rd,5,59.8,1.6
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,2 x AMD EPYC 9754 128-Core,93rd,7,59.3,0.7
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AMD EPYC 9655 96-Core,91st,8,57.7,1.7
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,2 x AMD EPYC 9654 96-Core,91st,11,57.3,3.4
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,2 x INTEL XEON PLATINUM 8592+,91st,24,57.1,2.1
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AmpereOne 192-Core,88th,17,54.5,0.8
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,ARMv8 Neoverse-V2 72-Core,88th,5,54.5,5.1
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AMD EPYC 9655P 96-Core,87th,16,53.9,2.7
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AMD EPYC 9575F 64-Core,87th,5,53.8,1.5
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,2 x Intel Xeon Max 9480,86th,5,51.8,0
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AMD EPYC 9845 160-Core,86th,9,51.8,1.6
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AmpereOne 160-Core,86th,3,51.6,0
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,2 x Intel Xeon Platinum 8490H,85th,7,50.5,0
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AMD EPYC 9754 128-Core,84th,6,48.5,1.6
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AmpereOne 128-Core,84th,4,48.1,0
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,2 x Intel Xeon Platinum 8462Y+,82nd,4,45.3,0.6
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,2 x Intel Xeon Platinum 8480+,82nd,6,44.9,2.6
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AMD EPYC 9684X 96-Core,82nd,6,44.5,3.5
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AMD EPYC 9654 96-Core,82nd,5,43.8,2.9
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,2 x Intel Xeon Max 9468,82nd,9,43.3,2.6
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AMD Ryzen Threadripper PRO 7995WX 96-Cores,81st,3,42.2,0.4
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AmpereOne 96-Core,80th,3,39.9,0
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,INTEL XEON PLATINUM 8592+,79th,7,37.4,0
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,2 x AMD EPYC 7773X 64-Core,78th,5,36.5,0.3
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,Intel Xeon Platinum 8490H,77th,5,34.9,0
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,2 x Intel Xeon Platinum 8380,76th,20,34.4,1.2
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,2 x Intel Xeon Platinum 8362,76th,6,33.6,0.2
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,Mid-Tier,75th,,32.9,0
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,Intel Xeon Platinum 8468,75th,5,32.5,0.3
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,2 x AMD EPYC 7713 64-Core,75th,4,32.4,0.4
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,2 x AMD EPYC 7742 64-Core,74th,4,32.1,0.1
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,Intel Xeon Max 9480,74th,4,32.1,0
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AmpereOne 64-Core,74th,3,31.1,0
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,Intel Xeon Platinum 8471N,73rd,3,28.7,0.1
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AMD EPYC 8534P 64-Core,73rd,8,28.5,2.9
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,Intel Xeon Max 9468,73rd,4,28.3,0
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,2 x Intel Xeon Gold 6342,72nd,4,27.2,0
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AMD EPYC 8534PN 64-Core,72nd,7,26.9,2.6
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,2 x AMD EPYC 75F3 32-Core,71st,5,26.3,1.3
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AMD Ryzen Threadripper 3990X 64-Core,71st,7,25.7,3.5
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,2 x Intel Xeon Platinum 8280,70th,4,25.1,0
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,2 x AMD EPYC 7601 32-Core,69th,4,23.5,0.6
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,Intel Core Ultra 9 285K,69th,14,23.0,1.3
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,2 x AMD EPYC 7551 32-Core,69th,3,22.7,0.7
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,Intel Xeon Platinum 8380,67th,5,21.4,0.1
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AMD EPYC 4585PX 16-Core,66th,29,21.4,0.1
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AMD Ryzen Threadripper 3970X 32-Core,64th,4,21.1,0.2
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AMD Ryzen 9 9950X 16-Core,64th,16,21.0,0.3
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,2 x Intel Xeon Gold 6346,63rd,4,20.9,0.1
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AMD Ryzen 9 9950X3D 16-Core,62nd,13,20.5,0.1
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,Intel Xeon Gold 6421N,61st,4,20.3,0.2
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AMD EPYC 4565P 16-Core,61st,22,20.3,0
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,Intel Xeon Gold 6414U,60th,5,20.1,0.2
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AMD Ryzen Threadripper PRO 5965WX 24-Cores,58th,9,18.8,1.2
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AmpereOne 32-Core,58th,3,18.5,0
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AMD EPYC 8324P 32-Core,57th,5,18.0,0.7
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AMD Ryzen Threadripper 3960X 24-Core,56th,6,17.4,0.1
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AMD Ryzen 9 7950X 16-Core,55th,23,17.1,0.6
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AMD Ryzen 9 9900X 12-Core,52nd,13,16.5,0.1
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AMD EPYC 8534PN 32-Core,52nd,3,16.5,1.8
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AMD Ryzen 9 7950X3D 16-Core,51st,13,16.4,0.2
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,Median,50th,,16.3,0
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,Intel Core i9-13900K,50th,26,16.3,2.3
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AMD Ryzen 9 9900X3D 12-Core,49th,7,16.2,0
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AMD EPYC 4584PX 16-Core,49th,14,15.9,0.8
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,2 x Intel Xeon Gold 5220R,48th,4,15.7,0
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AMD EPYC 4564P 16-Core,48th,15,15.7,1.4
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AMD Ryzen Threadripper 2990WX 32-Core,47th,6,15.6,0.4
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AMD EPYC 4545P 16-Core,47th,8,15.6,0
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,Intel Core Ultra 5 245K,47th,7,15.4,0.5
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,Intel Xeon Gold 6342,46th,4,15.1,0.8
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AMD EPYC 4465P 12-Core,45th,4,14.3,0
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AMD EPYC 7601 32-Core,44th,12,13.9,0.1
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AMD Ryzen 9 7900X 12-Core,43rd,18,13.3,0.3
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AMD EPYC 7551 32-Core,42nd,3,12.8,0.6
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AMD Ryzen Threadripper 2970WX 24-Core,42nd,5,12.8,0.3
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AMD Ryzen 9 5950X 16-Core,41st,27,12.6,0.7
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AMD Ryzen 9 7900X3D 12-Core,40th,8,12.5,0
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,Intel Core i9-10980XE,38th,7,12.2,0.3
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AMD Ryzen 7 9800X3D 8-Core,38th,9,12.1,0.1
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AMD Ryzen 9 3950X 16-Core,37th,6,11.9,0
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,Intel Xeon Gold 6346,37th,3,11.7,0.1
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AMD Ryzen 9 7900 12-Core,37th,7,11.7,0.3
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AMD EPYC 4484PX 12-Core,36th,10,11.3,1.6
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AMD EPYC 4345P 8-Core,36th,10,11.3,0
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AMD EPYC 4464P 12-Core,36th,10,11.3,0.6
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AMD Ryzen 7 9700X 8-Core,35th,13,11.0,0.5
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AMD Ryzen Threadripper 2950X 16-Core,34th,6,10.7,0.1
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,Intel Xeon Gold 6226R,33rd,3,10.4,0
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AMD Ryzen 9 5900X 12-Core,33rd,9,10.4,0
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,Intel Core i5-14600K,32nd,5,10.1,0
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,Intel Core i5-13600K,31st,14,9.9,0.3
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AMD Ryzen 7 7700X 8-Core,31st,14,9.7,0.3
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,Intel Core i9-12900K,30th,11,9.6,0.1
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,Intel Xeon 6369P,29th,11,9.4,0
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AMD Ryzen 9 3900XT 12-Core,28th,5,9.3,0.2
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AMD EPYC 4344P 8-Core,27th,8,9.0,0
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AMD Ryzen 7 7700 8-Core,26th,5,8.9,0.1
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,Low-Tier,25th,,8.8,0
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AMD Ryzen 5 9600X 6-Core,25th,16,8.8,0.2
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AMD Ryzen 7 7800X3D 8-Core,25th,6,8.8,0
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AMD EPYC 4364P 8-Core,25th,10,8.8,0.5
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AMD Ryzen 9 3900X 12-Core,25th,6,8.8,0.5
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AMD EPYC 4245P 6-Core,25th,4,8.7,0
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AMD Ryzen 7 8700G,24th,5,8.4,0
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,Intel Xeon Silver 4216,23rd,4,8.3,0
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,Intel Core i9-10900K,23rd,3,8.3,0
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AMD Ryzen 7 5800X 8-Core,22nd,10,7.6,0.1
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,Intel Xeon E E-2488,22nd,4,7.6,0
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AMD Ryzen 7 5800X3D 8-Core,20th,15,7.5,0
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AMD EPYC 72F3 8-Core,19th,3,7.1,0
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AMD Ryzen 7 5700G,19th,6,7.1,0
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AMD EPYC 4244P 6-Core,18th,9,6.9,0
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AMD Ryzen 9 5900HX,18th,9,6.9,0.1
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AMD Ryzen 5 7600 6-Core,18th,7,6.8,0.1
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,Intel Core i5-12400,15th,4,6.5,0.1
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AMD EPYC 7F32 8-Core,15th,4,6.4,0
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AMD Ryzen 5 8400F 6-Core,15th,4,6.4,0
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AMD Ryzen AI 9 HX 370,15th,4,6.4,0.5
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AMD Ryzen 5 8600G,15th,5,6.2,0.7
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,Intel Core i5-14500,14th,4,5.9,0
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,Intel Core i5-14400F,14th,5,5.6,0
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,Intel Core i5-12600K,13th,6,5.6,0.4
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AMD Ryzen 5 5500,12th,6,5.2,0
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AMD Ryzen 5 5600X 6-Core,12th,7,5.1,0.6
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,Intel Core i5-13400,12th,7,5.1,0.3
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AMD Ryzen 7 PRO 5850U,11th,3,4.9,0
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,Intel Core i3-14100,11th,5,4.9,0
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AMD Ryzen 7 PRO 6850U,11th,7,4.8,0.1
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,Intel Core Ultra 7 155H,10th,6,4.7,0.2
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AMD EPYC 4124P 4-Core,10th,14,4.7,0
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AMD Ryzen 7 4800U,8th,3,4.6,0.2
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AMD Ryzen 7 1700 Eight-Core,8th,7,4.6,0.1
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AMD Ryzen 7 4700U,7th,4,4.4,0.2
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,Intel Core i7-10700T,6th,3,3.9,0
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,AMD Ryzen 5 5500U,5th,3,3.7,0.1
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,Intel Core i7-1280P,5th,8,3.4,0.3
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,Intel Xeon E3-1275 v6,5th,3,3.2,0
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,Intel Xeon E3-1280 v5,4th,4,2.9,0.1
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,Apple M2,3rd,10,2.5,0.2
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,Intel Core i7-1065G7,2nd,3,2.1,0.1
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,SSE2 (SSE2),Used by default on supported hardware.,UCOMISD MOVUPD ADDPD MAXSD MOVLPD MOVDQU COMISD MOVD PUNPCKLQDQ PADDQ CVTPS2PD CVTSS2SD PSHUFD MOVDQA MOVAPD DIVSD SQRTSD MULSD SUBSD CVTSI2SD ADDSD XORPD SHUFPD ANDPD UNPCKLPD CVTTSD2SI PMULUDQ PSRLDQ MINSD ANDNPD CMPNLESD ORPD MULPD MOVHPD CVTSD2SS SUBPD DIVPD UNPCKHPD CMPNLTSD MOVMSKPD CVTPD2PS CVTDQ2PD CVTDQ2PS CVTTPD2DQ CMPLESD PUNPCKHQDQ CMPLTPD CMPNEQPD MINPD CMPNLEPD PSUBQ CMPLTSD PSLLDQ CMPEQPD,0
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,Advanced Vector Extensions (AVX),"Requires passing a supported compiler/build flag (verified with targets: sandybridge, skylake, tigerlake, cascadelake, sapphirerapids, alderlake, znver2, znver3).Found on Intel processors since Sandy Bridge (2011).Found on AMD processors since Bulldozer (2011).",VZEROUPPER VINSERTF128 VEXTRACTF128 VBROADCASTSD VPERM2F128 VBROADCASTSS VPERMILPD,0
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,Advanced Vector Extensions 2 (AVX2),"Requires passing a supported compiler/build flag (verified with targets: skylake, tigerlake, cascadelake, sapphirerapids, alderlake, znver2, znver3).Found on Intel processors since Sapphire Rapids (2012).Found on AMD processors since Excavator (2015).",VPBROADCASTQ VEXTRACTI128 VPBROADCASTD VPERMQ VINSERTI128 VPMASKMOVD VPGATHERQD VPGATHERDQ VPERM2I128 VPGATHERDD VPBLENDD VPERMPD VGATHERQPD VPGATHERQQ VPBROADCASTB VPERMD,0
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,FMA (FMA),"Requires passing a supported compiler/build flag (verified with targets: skylake, tigerlake, cascadelake, sapphirerapids, alderlake, znver2, znver3).Found on Intel processors since Sapphire Rapids (2012).Found on AMD processors since Bulldozer (2011).",VFMADD213SD VFMADD231SD VFMADD132SD VFMSUB231SD VFMSUB132SD VFMADD132PD VFMADD231PD VFNMADD231SD VFMADD213PD VFMSUB213SD VFNMADD132SD VFNMADD213SD VFNMADD132PD VFMSUB231PD VFMSUB132PD VFNMSUB231SD VFNMSUB132SD VFNMSUB213SD VFNMADD231PD VFNMSUB132PD VFNMADD213PD VFNMSUB231PD VFMSUB213PD VFNMSUB213PD,0
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,Advanced Vector Extensions 512 (AVX512),"Requires passing a supported compiler/build flag (verified with targets: cascadelake, sapphirerapids).",(ZMM REGISTER USE),0
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,The test / benchmark does honor compiler flag changes.,,Last automated analysis: 11 January 2026,0
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,Intel / AMD x86 64-bit,x86_64,(Many Processors),0
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,Loongson LoongArch 64-bit,loongarch64,Loongson-3A6000,0
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,ARMv8 64-bit,arm64,Apple M1,0
+LAMMPS_Molecular_Dynamics_Simulator_23Jun2022,Model_20k_Atoms,ARMv8 64-bit,aarch64,"ARMv8 Cortex-A53 4-Core, ARMv8 Cortex-A72 4-Core, ARMv8 Neoverse-N1, ARMv8 Neoverse-N1 128-Core, ARMv8 Neoverse-V1, ARMv8 Neoverse-V2, ARMv8 Neoverse-V2 144-Core, ARMv8 Neoverse-V2 72-Core, ARMv8 Neoverse-V2 96-Core, Ampere ARMv8 Neoverse-N1 128-Core, AmpereOne 128-Core, AmpereOne 160-Core, AmpereOne 192-Core, AmpereOne 32-Core, AmpereOne 64-Core, AmpereOne 72-Core, AmpereOne 96-Core, Apple M1, Apple M2",0

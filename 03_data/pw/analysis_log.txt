@@ -1,0 +1,56 @@
+
+Loaded points: 139
+Segments: 1, AICc = -579.6
+Segments: 2, AICc = -584.0
+Segments: 3, AICc = -584.0
+Segments 4: breakpoints too close, skipping
+Segments 5: breakpoints too close, skipping
+
+Optimal number of segments: 2
+Breakpoints (GFLOPS): [29058]
+Slopes (log-log): [ 0.699 -0.357]
+Breakpoints and slopes saved to: pwld_breakpoints.csv
+
+Bootstrap (200 iterations) for 2 segments:
+  Break 1: 2163 GFLOPS [95% CI: 333–36678], slope: 330.31±1798.65 → 0.04±0.96
+Bootstrap results saved to: pwld_bootstrap.csv
+
+Univariate PWLD model quality metrics:
+  R² (log) = 0.9001
+  Adjusted R² = 0.8979
+  RMSE (log) = 0.1188
+  RMSE (original) = 9.63e+04
+  MAPE = 21.82%
+Univariate metrics saved to: univariate_metrics.csv
+
+Univariate regression formulas (for Excel):
+  GFLOPS ≤ 29058:
+    LOG10(y) = 0.6991 * LOG10(GFLOPS) + 3.0927
+    y = 10^3.0927 * (GFLOPS)^0.6991
+  GFLOPS > 29058:
+    LOG10(y) = -0.3574 * LOG10(GFLOPS) + 7.8081
+    y = 10^7.8081 * (GFLOPS)^-0.3574
+Univariate formulas saved to: pwld_formulas.txt
+
+Features found in data: ['GFLOPS', 'Mem Bandwidth. GB/s', 'Cache L2. KB', 'Cache L3. KB']
+
+======================================================================
+SEGMENTED MULTIVARIATE POWER LAW REGRESSION (log‑log)
+(coefficients forced non‑negative via NNLS)
+======================================================================
+
+--- Segment: GFLOPS ≤ 29058 (points: 134) ---
+  Formula: Natoms*ns/day = 4.0242e+02 * (GFLOPS)^0.3112 * (Mem Bandwidth. GB/s)^0.0000 * (Cache L2. KB)^0.1874 * (Cache L3. KB)^0.2053
+  R² = 0.9353, adj.R² = 0.9332
+
+--- Segment: GFLOPS > 29058 (points: 5) ---
+  Formula: Natoms*ns/day = 9.3844e+05 * (GFLOPS)^0.0000 * (Mem Bandwidth. GB/s)^0.0000 * (Cache L2. KB)^0.0346 * (Cache L3. KB)^0.0000
+  R² = 0.0066, adj.R² = nan
+Multivariate segment results (CSV) saved to: multivariate_segments.csv
+Multivariate formulas (TXT) saved to: multivariate_formulas.txt
+
+Building upper envelope (maximum in window)...
+Upper envelope points saved to: upper_envelope.csv
+Plot saved to: regression_plot.png
+
+Analysis finished. All results are in folder: pw/

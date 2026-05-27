@@ -1,0 +1,97 @@
+Category,Microarchitecture,ISA,FP64,FP32,FP16
+Intel CPU,Intel 80486,x87 (80-bit),N/A,0.128,N/A
+Intel CPU,"Intel P5 Pentium
+Intel P6 Pentium Pro",x87 (80-bit),N/A,0.5,N/A
+Intel CPU,"Intel P5 Pentium MMX
+Intel P6 Pentium II",x87 (80-bit),N/A,1,N/A
+Intel CPU,Intel P6 Pentium III,SSE (64-bit),N/A,2,N/A
+Intel CPU,"Intel NetBurst Pentium 4 (Willamette, Northwood)",SSE2 (64-bit),2,4,N/A
+Intel CPU,Intel P6 Pentium M,SSE2 (64-bit),1,2,N/A
+Intel CPU,"Intel NetBurst Pentium 4 (Prescott, Cedar Mill)
+Intel NetBurst Pentium D (Smithfield, Presler)
+Intel P6 Core (Yonah)",SSE3 (64-bit),2,4,N/A
+Intel CPU,"Intel Core (Merom, Penryn)
+Intel Nehalem (Nehalem, Westmere)","SSSE3 (128-bit)
+SSE4 (128-bit)",4,8,N/A
+Intel CPU,"Intel Atom (Bonnell, Saltwell, Silvermont and Goldmont)",SSE3 (128-bit),2,4,N/A
+Intel CPU,"Intel Sandy Bridge (Sandy Bridge, Ivy Bridge)",AVX (256-bit),8,16,0
+Intel CPU,"Intel Haswell (Haswell, Devil's Canyon, Broadwell)Intel Skylake(Skylake, Kaby Lake, Coffee Lake, Comet Lake, Whiskey Lake, Amber Lake)",AVX2 & FMA (256-bit),16,32,0
+Intel CPU,Intel Xeon Phi (Knights Corner),IMCI (512-bit),16,32,0
+Intel CPU,"Intel Skylake-X (Skylake-X, Cascade Lake)
+Intel Xeon Phi (Knights Landing, Knights Mill)
+Intel Ice Lake, Tiger Lake and Rocket Lake",AVX-512 & FMA (512-bit),32,64,0
+AMD CPU,AMD Bobcat,AMD64 (64-bit),2,4,0
+AMD CPU,"AMD Jaguar
+AMD Puma",AVX (128-bit),4,8,0
+AMD CPU,AMD K10,SSE4/4a (128-bit),4,8,0
+AMD CPU,"AMD Bulldozer(Piledriver, Steamroller, Excavator)","AVX (128-bit)(Bulldozer, Steamroller)AVX2 (128-bit) (Excavator)FMA3 (Bulldozer)FMA3/4 (Piledriver, Excavator)",4,8,0
+AMD CPU,"AMD Zen(Ryzen 1000 series, Threadripper 1000 series, Epyc Naples)AMD Zen+(Ryzen 2000 series, Threadripper 2000 series)","AVX2 & FMA(128-bit, 256-bit decoding)",8,16,0
+AMD CPU,"AMD Zen 2(Ryzen 3000 series, Threadripper 3000 series, Epyc Rome)AMD Zen 3(Ryzen 5000 series, Epyc Milan)",AVX2 & FMA (256-bit),16,32,0
+AMD CPU,"AMD Zen 4(Ryzen 7000 series, Threadripper 7000 series, Epyc Genoa,Bergamo, Siena)",AVX-512 & FMA (256-bit),16,32,0
+AMD CPU,"AMD Zen 5(Ryzen 9000 series, Threadripper 9000 series, Epyc Turin)",AVX-512 & FMA (512-bit),32,64,0
+ARM CPU,"ARM Cortex-A7, A9, A15",ARMv7,1,8,0
+ARM CPU,"ARM Cortex-A32, A35",ARMv8,2,8,0
+ARM CPU,"ARM Cortex-A53, A55, A57, A72, A73",ARMv8,8,16,0
+ARM CPU,"ARM Cortex-A75, A76, A77, A78",ARMv8,8,16,32
+ARM CPU,ARM Cortex-X1,ARMv8,16,32,64
+ARM CPU,Qualcomm Krait,ARMv8,1,8,0
+ARM CPU,Qualcomm Kryo (1xx - 3xx),ARMv8,2,8,0
+ARM CPU,Qualcomm Kryo (4xx - 5xx),ARMv8,8,16,0
+ARM CPU,Samsung Exynos M1 and M2,ARMv8,2,8,0
+ARM CPU,Samsung Exynos M3 and M4,ARMv8,3,12,0
+ARM CPU,IBM PowerPC A2 (Blue Gene/Q),?,8,8(as FP64),0
+ARM CPU,Hitachi SH-4,SH-4,1,7,0
+Nvidia GPU,Nvidia Curie (GeForce 6 series and GeForce 7 series),PTX,N/A,8,N/A
+Nvidia GPU,Nvidia Tesla 2.0 (GeForce GTX 260–295),PTX,N/A,2,N/A
+Nvidia GPU,"Nvidia Fermi
+(only GeForce GTX 465–480, 560 Ti, 570–590)",PTX,"1⁄4(locked by driver,1 in hardware)",2,0
+Nvidia GPU,"Nvidia Fermi
+(only Quadro 600–2000)",PTX,1⁄8,2,0
+Nvidia GPU,"Nvidia Fermi
+(only Quadro 4000–7000, Tesla)",PTX,1,2,0
+Nvidia GPU,"Nvidia Kepler
+(GeForce (except Titan and Titan Black), Quadro (except K6000), Tesla K10)",PTX,"1⁄12(for GK110:locked by driver,2⁄3 in hardware)",2,0
+Nvidia GPU,"Nvidia Kepler
+(GeForce GTX Titan and Titan Black, Quadro K6000, Tesla (except K10))",PTX,2⁄3,2,0
+Nvidia GPU,Nvidia MaxwellNvidia Pascal(all except Quadro GP100 and Tesla P100),PTX,1⁄16,2,1⁄32
+Nvidia GPU,Nvidia Pascal (only Quadro GP100 and Tesla P100),PTX,1,2,4
+Nvidia GPU,Nvidia Volta,PTX,1,2 (FP32) + 2 (INT32),16
+Nvidia GPU,Nvidia Turing (only GeForce 16XX),PTX,1⁄16,2 (FP32) + 2 (INT32),4
+Nvidia GPU,Nvidia Turing (all except GeForce 16XX),PTX,1⁄16,2 (FP32) + 2 (INT32),16
+Nvidia GPU,Nvidia Ampere (only Tesla A100/A30),PTX,2,2 (FP32) + 2 (INT32),32
+Nvidia GPU,"Nvidia Ampere (all GeForce and Quadro, Tesla A40/A10)
+Nvidia Ada Lovelace",PTX,1⁄32,2 (FP32) + 0 (INT32)or1 (FP32) + 1 (INT32),8
+Nvidia GPU,Nvidia Hopper,PTX,2,2 (FP32) + 1 (INT32),32
+AMD GPU,AMD TeraScale 1 (Radeon HD 4000 series),TeraScale 1,0.4,2,N/A
+AMD GPU,AMD TeraScale 2 (Radeon HD 5000 series),TeraScale 2,1,2,N/A
+AMD GPU,AMD TeraScale 3 (Radeon HD 6000 series),TeraScale 3,1,4,N/A
+AMD GPU,AMD GCN(only Radeon Pro W 8100–9100),GCN,1,2,N/A
+AMD GPU,"AMD GCN(all except Radeon Pro W 8100–9100, Vega 10–20)",GCN,1⁄8,2,4
+AMD GPU,AMD GCN Vega 10,GCN,1⁄8,2,4
+AMD GPU,AMD GCN Vega 20(only Radeon VII),GCN,"1⁄2(locked by driver,1 in hardware)",2,4
+AMD GPU,AMD GCN Vega 20(only Radeon Instinct MI50 / MI60 and Radeon Pro VII),GCN,1,2,4
+AMD GPU,"AMD RDNA
+AMD RDNA 2",RDNA,1⁄8,2,4
+AMD GPU,AMD RDNA3,RDNA,1⁄8?,4,8?
+AMD GPU,AMD CDNA,CDNA,1,4(Tensor),16
+AMD GPU,AMD CDNA 2,CDNA 2,4(Tensor),4(Tensor),16
+Intel GPU,Intel Xe-LP (Iris Xe MAX),Xe,1⁄2?,2,4
+Intel GPU,Intel Xe-HPG (Arc Alchemist),Xe,0,2,16
+Intel GPU,Intel Xe-HPC (Ponte Vecchio),Xe,2,2,32
+Intel GPU,Intel Xe2 (Arc Battlemage),Xe2,1⁄8,2,16
+Qualcomm GPU,Qualcomm Adreno 5x0,Adreno 5xx,1,2,4
+Qualcomm GPU,Qualcomm Adreno 6x0,Adreno 6xx,1,2,4
+Graphcore,Graphcore Colossus GC2,?,0,16,64
+Graphcore,"Graphcore Colossus GC200 Mk2
+Graphcore Bow-2000",?,0,32,128
+Supercomputer,ENIAC @ 100 kHz in 1945,,0.00385(~2.6×10−3 FLOPS/W),N/A,N/A
+Supercomputer,48-bit processor @ 208 kHz in CDC 1604 in 1960,,N/A,N/A,N/A
+Supercomputer,60-bit processor @ 10 MHz in CDC 6600 in 1964,,0.3(FP60),N/A,N/A
+Supercomputer,60-bit processor @ 10 MHz in CDC 7600 in 1967,,1.0(FP60),N/A,N/A
+Supercomputer,Cray-1 @ 80 MHz in 1976,,2(700 FLOPS/W),N/A,N/A
+Supercomputer,"CDC Cyber 205 @ 50 MHz in 1981
+FORTRAN compiler 
+(ANSI 77 with vector extensions)",,8,16,N/A
+Supercomputer,Transputer IMS T800-20 @ 20 MHz in 1987,,0.08,N/A,N/A
+Supercomputer,Parallella E16 @ 1000 MHz in 2012,,2(5.0 GFLOPS/W),N/A,N/A
+Supercomputer,Parallella E64 @ 800 MHz in 2012,,2(50.0 GFLOPS/W),N/A,N/A
