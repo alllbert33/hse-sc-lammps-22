@@ -1,0 +1,16 @@
+Segment: GFLOPS ≤ 29058
+Method: NNLS
+Formula: Natoms*ns/day = 4.3639e+02 * (GFLOPS)^0.2621 * (Mem Bandwidth. GB/s)^0.0000 * (Cache L2. KB)^0.2390 * (Cache L3. KB)^0.1879
+R² = 0.9534
+Adj. R² = 0.9519
+RMSE (log) = 0.0765
+MAPE = 14.31%
+Number of points (after outlier removal): 132
+
+Coefficients (original log scale):
+  GFLOPS: 0.262107
+  Mem Bandwidth. GB/s: 0.000000
+  Cache L2. KB: 0.239024
+  Cache L3. KB: 0.187912
+
+Intercept (log10): 2.639877

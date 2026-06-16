@@ -1,3 +1,0 @@
-segment,formula,R2,R2_adj,n_points,coefficients,features
-GFLOPS ≤ 29058,Natoms*ns/day = 4.0242e+02 * (GFLOPS)^0.3112 * (Mem Bandwidth. GB/s)^0.0000 * (Cache L2. KB)^0.1874 * (Cache L3. KB)^0.2053,0.9352529210946149,0.9332452597332076,134,"[2.6046787704589383, 0.31122159611441863, 0.0, 0.1874275585697832, 0.20531830764975412]","['GFLOPS', 'Mem Bandwidth. GB/s', 'Cache L2. KB', 'Cache L3. KB']"
-GFLOPS > 29058,Natoms*ns/day = 9.3844e+05 * (GFLOPS)^0.0000 * (Mem Bandwidth. GB/s)^0.0000 * (Cache L2. KB)^0.0346 * (Cache L3. KB)^0.0000,0.006551507689049996,,5,"[5.972406691899283, 0.0, 0.0, 0.03461424524773715, 0.0]","['GFLOPS', 'Mem Bandwidth. GB/s', 'Cache L2. KB', 'Cache L3. KB']"

@@ -11,46 +11,51 @@ Breakpoints (GFLOPS): [29058]
 Slopes (log-log): [ 0.699 -0.357]
 Breakpoints and slopes saved to: pwld_breakpoints.csv
 
-Bootstrap (200 iterations) for 2 segments:
-  Break 1: 2163 GFLOPS [95% CI: 333–36678], slope: 330.31±1798.65 → 0.04±0.96
-Bootstrap results saved to: pwld_bootstrap.csv
-
 Univariate PWLD model quality metrics:
   R² (log) = 0.9001
   Adjusted R² = 0.8979
   RMSE (log) = 0.1188
   RMSE (original) = 9.63e+04
   MAPE = 21.82%
-Univariate metrics saved to: univariate_metrics.csv
-
-Univariate regression formulas (for Excel):
-  GFLOPS ≤ 29058:
-    LOG10(y) = 0.6991 * LOG10(GFLOPS) + 3.0927
-    y = 10^3.0927 * (GFLOPS)^0.6991
-  GFLOPS > 29058:
-    LOG10(y) = -0.3574 * LOG10(GFLOPS) + 7.8081
-    y = 10^7.8081 * (GFLOPS)^-0.3574
 Univariate formulas saved to: pwld_formulas.txt
 
 Features found in data: ['GFLOPS', 'Mem Bandwidth. GB/s', 'Cache L2. KB', 'Cache L3. KB']
 
-======================================================================
-SEGMENTED MULTIVARIATE POWER LAW REGRESSION (log‑log)
-(coefficients forced non‑negative via NNLS)
-======================================================================
+================================================================================
+MULTIVARIATE REGRESSION COMPARISON (NNLS vs Positive Lasso vs Positive ElasticNet)
+Outliers (|residual| > 3σ in log space) are removed before fitting.
+================================================================================
 
 --- Segment: GFLOPS ≤ 29058 (points: 134) ---
-  Formula: Natoms*ns/day = 4.0242e+02 * (GFLOPS)^0.3112 * (Mem Bandwidth. GB/s)^0.0000 * (Cache L2. KB)^0.1874 * (Cache L3. KB)^0.2053
-  R² = 0.9353, adj.R² = 0.9332
+  NNLS: R² = 0.9534, adj.R² = 0.9519, RMSE(log) = 0.0765, MAPE = 14.31% (after outlier removal, n=132)
+      Formula: Natoms*ns/day = 4.3639e+02 * (GFLOPS)^0.2621 * (Mem Bandwidth. GB/s)^0.0000 * (Cache L2. KB)^0.2390 ...
+    Plot saved: d:\home\studying\магистратура\ruscdays\clean\03_data\pw\GFLOPS_le_29058\NNLS\pred_vs_true.png
+  Lasso (positive): R² = 0.9534, adj.R² = 0.9523, RMSE(log) = 0.0765, MAPE = 14.31% (after outlier removal, n=132)
+      Hyperparameters: alpha=0.00010
+      Formula: Natoms*ns/day = 4.3737e+02 * (GFLOPS)^0.2622 * (Cache L2. KB)^0.2389 * (Cache L3. KB)^0.1878...
+    Plot saved: d:\home\studying\магистратура\ruscdays\clean\03_data\pw\GFLOPS_le_29058\Lasso_positive\pred_vs_true.png
+  ElasticNet (positive): R² = 0.9534, adj.R² = 0.9523, RMSE(log) = 0.0765, MAPE = 14.31% (after outlier removal, n=132)
+      Hyperparameters: alpha=0.00010, l1_ratio=0.100
+      Formula: Natoms*ns/day = 4.3662e+02 * (GFLOPS)^0.2622 * (Cache L2. KB)^0.2389 * (Cache L3. KB)^0.1879...
+    Plot saved: d:\home\studying\магистратура\ruscdays\clean\03_data\pw\GFLOPS_le_29058\ElasticNet_positive\pred_vs_true.png
 
 --- Segment: GFLOPS > 29058 (points: 5) ---
-  Formula: Natoms*ns/day = 9.3844e+05 * (GFLOPS)^0.0000 * (Mem Bandwidth. GB/s)^0.0000 * (Cache L2. KB)^0.0346 * (Cache L3. KB)^0.0000
-  R² = 0.0066, adj.R² = nan
-Multivariate segment results (CSV) saved to: multivariate_segments.csv
-Multivariate formulas (TXT) saved to: multivariate_formulas.txt
+  NNLS: R² = 0.0066, adj.R² = nan, RMSE(log) = 0.0639, MAPE = 12.89% (after outlier removal, n=5)
+      Formula: Natoms*ns/day = 9.3844e+05 * (GFLOPS)^0.0000 * (Mem Bandwidth. GB/s)^0.0000 * (Cache L2. KB)^0.0346 ...
+    Plot saved: d:\home\studying\магистратура\ruscdays\clean\03_data\pw\GFLOPS_gt_29058\NNLS\pred_vs_true.png
+  Lasso (positive): R² = 0.0000, adj.R² = 0.0000, RMSE(log) = 0.0641, MAPE = 12.37% (after outlier removal, n=5)
+      Hyperparameters: alpha=10.00000
+      Formula: Natoms*ns/day = 1.4575e+06...
+    Plot saved: d:\home\studying\магистратура\ruscdays\clean\03_data\pw\GFLOPS_gt_29058\Lasso_positive\pred_vs_true.png
+  ElasticNet (positive): R² = 0.0000, adj.R² = 0.0000, RMSE(log) = 0.0641, MAPE = 12.37% (after outlier removal, n=5)
+      Hyperparameters: alpha=10.00000, l1_ratio=0.100
+      Formula: Natoms*ns/day = 1.4575e+06...
+    Plot saved: d:\home\studying\магистратура\ruscdays\clean\03_data\pw\GFLOPS_gt_29058\ElasticNet_positive\pred_vs_true.png
 
-Building upper envelope (maximum in window)...
-Upper envelope points saved to: upper_envelope.csv
+All multivariate results saved to: multivariate_comparison.csv
+
+Building upper envelope...
+Upper envelope saved to: upper_envelope.csv
 Plot saved to: regression_plot.png
 
 Analysis finished. All results are in folder: pw/

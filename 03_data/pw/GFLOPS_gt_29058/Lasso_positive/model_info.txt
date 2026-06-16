@@ -1,0 +1,17 @@
+Segment: GFLOPS > 29058
+Method: Lasso (positive)
+Formula: Natoms*ns/day = 1.4575e+06
+R² = 0.0000
+Adj. R² = 0.0000
+RMSE (log) = 0.0641
+MAPE = 12.37%
+Number of points (after outlier removal): 5
+alpha = 10.00000
+
+Coefficients (original log scale):
+  GFLOPS: 0.000000
+  Mem Bandwidth. GB/s: 0.000000
+  Cache L2. KB: 0.000000
+  Cache L3. KB: 0.000000
+
+Intercept (log10): 6.163623

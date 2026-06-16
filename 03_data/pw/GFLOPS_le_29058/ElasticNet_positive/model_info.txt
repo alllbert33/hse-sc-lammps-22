@@ -1,0 +1,18 @@
+Segment: GFLOPS ≤ 29058
+Method: ElasticNet (positive)
+Formula: Natoms*ns/day = 4.3662e+02 * (GFLOPS)^0.2622 * (Cache L2. KB)^0.2389 * (Cache L3. KB)^0.1879
+R² = 0.9534
+Adj. R² = 0.9523
+RMSE (log) = 0.0765
+MAPE = 14.31%
+Number of points (after outlier removal): 132
+alpha = 0.00010
+l1_ratio = 0.100
+
+Coefficients (original log scale):
+  GFLOPS: 0.262248
+  Mem Bandwidth. GB/s: 0.000000
+  Cache L2. KB: 0.238920
+  Cache L3. KB: 0.187859
+
+Intercept (log10): 2.640101
